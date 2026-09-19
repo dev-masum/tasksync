@@ -13,12 +13,17 @@ REST API built with **Go**, **PostgreSQL**, **GORM**, and **Docker**.
 
 ## 🚀 Setup Steps
 
-### 1. Run Database Migrations
+### 1. Copy Environment Variables
+```bash
+cp .env.example .env
+```
+
+### 2. Run Database Migrations
 ```bash
 docker compose --profile migration run --rm migrate
 ```
 
-### 2. Start API Service
+### 3. Start API Service
 ```bash
 docker compose up -d
 ```
