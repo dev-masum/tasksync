@@ -1,0 +1,28 @@
+# Binaries & Build Outputs
+bin/
+dist/
+*.exe
+tasksync-api
+
+# Version Control
+.git
+.gitignore
+
+# Documentation & IDE
+README.md
+.idea/
+.vscode/
+*.swp
+
+# Environment Overrides & Volumes
+.env.local
+postgres_data/
+
+# Tests & Coverage
+*_test.go
+*.out
+*.coverprofile
+
+# Docker orchestration
+docker-compose*.yml
+Dockerfile

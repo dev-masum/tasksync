@@ -1,0 +1,33 @@
+# Binaries & Build Outputs
+bin/
+dist/
+*.exe
+*.exe;
+*.dll
+*.so
+*.dylib
+tasksync-api
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# IDE & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Go test outputs & coverage
+*.out
+*.coverprofile
+coverage.html
+
+# Data & Volumes
+postgres_data/
+
+# OS generated
+Thumbs.db
